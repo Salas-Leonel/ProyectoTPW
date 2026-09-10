@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motos y Motos - Taller de Programación Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Motos y Motos</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos y Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="inicio">
+            <h2>Bienvenido a Motos y Motos</h2>
+            <p>Soluciones integrales de movilidad urbana y comercial en el Perú.</p>
+            <br>
+            <div class="imagen-centro">
+                <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80" alt="Motocicleta en carretera">
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p><strong>Misión:</strong> Proveer motocicletas, repuestos originales y servicios de mantenimiento de alta calidad a conductores y trabajadores del sector transporte, garantizando seguridad y productividad.</p>
+            <br>
+            <p><strong>Visión:</strong> Consolidarse a mediano y largo plazo como la red líder en venta de motocicletas y repuestos a nivel nacional, siendo reconocidos por la excelencia en el servicio.</p>
+        </section>
+
+        <section id="productos">
+            <h2>Productos y Servicios</h2>
+            <p>Conoce nuestro catálogo y los beneficios que ofrecemos para ti:</p>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto / Servicio</th>
+                        <th>Descripción</th>
+                        <th>Beneficio para el Cliente</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Venta de Motocicletas</strong></td>
+                        <td>Modelos urbanos, de trabajo (pisteras, scooters, mototaxis) y todoterreno de marcas reconocidas.</td>
+                        <td>Un medio de transporte eficiente, económico y adaptado a sus necesidades.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Repuestos y Piezas Originales</strong></td>
+                        <td>Componentes de motor, frenos, transmisión, suspensión y sistema eléctrico multimarca.</td>
+                        <td>Garantía de rendimiento y prevención de fallas mecánicas severas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Accesorios y Equipamiento</strong></td>
+                        <td>Cascos certificados, indumentaria de protección, maleteros y luces complementarias.</td>
+                        <td>Mayor seguridad vial, cumplimiento de normativas de tránsito y confort.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Servicio Técnico</strong></td>
+                        <td>Talleres especializados para mantenimiento preventivo, correctivo y diagnóstico computarizado.</td>
+                        <td>Extensión de la vida útil de la moto con respaldo técnico profesional.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <p>¿Tienes alguna consulta? Escríbenos y nos pondremos en contacto contigo.</p>
+            <br>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escriba su consulta aquí..." required></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Motos y Motos. Curso: Taller de Programación Web - Unidad 1.</p>
+    </footer>
+
+</body>
+</html>
